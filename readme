@@ -1,0 +1,23 @@
+Projeto de Misael Alves 
+
+Objetos e Classes:
+
+Grid: Representa a grade de invasores que se movem para a esquerda e para a direita, descendo quando atingem as bordas da tela.
+Invader: Cada inimigo da grade, que se move e atira no jogador.
+Player: A nave do jogador, que pode se mover para a esquerda, direita e disparar projéteis.
+Projectile: Projetéis disparados pelo jogador ou pelos invasores.
+Particle: Partículas que geram explosões quando os inimigos ou a nave são destruídos.
+Obstacle: Obstáculos que protegem a nave e podem ser destruídos pelos invasores ou pelo jogador.
+SoundEffects: Gerencia os sons do jogo, como disparos, explosões e transições de nível.
+Star: Estrelas que criam um efeito de fundo dinâmico.
+O jogo possui três estados: START (inicial), PLAYING (jogando) e GAME_OVER (fim de jogo).
+A pontuação e o nível são atualizados conforme o progresso, com a pontuação sendo salva e comparada com o recorde.
+
+
+A classe SoundEffects é responsável por gerenciar os sons do jogo;
+Métodos:
+playShootSound(): Toca um som de disparo.
+playHitSound(): Toca um som de impacto.
+playExplosionSound(): Toca o som de explosão.
+playNextLevelSound(): Toca o som de transição para o próximo nível.
+adjustVolumes(): Ajusta o volume de cada som para garantir que alguns sons sejam mais baixos e outros mais altos.
